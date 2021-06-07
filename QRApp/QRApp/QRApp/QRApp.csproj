@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="NewFolder1\**" />
+    <EmbeddedResource Remove="NewFolder1\**" />
+    <None Remove="NewFolder1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Fonts\Brazilian.ttf" />
+    <None Remove="Resources\Fonts\MiraculousChristmas.ttf" />
+    <None Remove="Resources\Fonts\Net-Baliung.ttf" />
+    <None Remove="Resources\Fonts\Net-PreproductionDemoRegular.ttf" />
+    <None Remove="Resources\Fonts\Net-Royal-Signature-ttf.ttf" />
+    <None Remove="Resources\Fonts\SweetieBunny.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Fonts\Brazilian.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\MiraculousChristmas.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Net-Baliung.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Net-PreproductionDemoRegular.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Net-Royal-Signature-ttf.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\SweetieBunny.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RegisterPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

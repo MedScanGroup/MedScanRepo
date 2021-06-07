@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QRApp.LoginPage">
+    <ContentPage.Content>
+        <StackLayout Padding="20,30,20,50">
+
+
+            <Label Text="Login"
+               FontSize="50"
+               HorizontalOptions="Center"
+               FontFamily ="SweetieBunny"/>
+
+            <Image Source="MedScan.png"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+
+            <Entry Keyboard="Email"
+               Placeholder="Correo electrónico "
+               VerticalOptions="CenterAndExpand" />
+
+            <Entry Keyboard="Text"
+               Placeholder="Contraseña"
+               IsPassword="True"
+               VerticalOptions="CenterAndExpand" />
+            <Button Text="Iniciar Sesión"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                CornerRadius  ="10"
+                BackgroundColor   ="#3894b8"/>
+
+            <Label FontSize="12"
+               HorizontalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Aún no tienes una cuenta? " />
+                        <Span Text="Regístrate."
+                  TextColor="Blue"
+                  TextDecorations="Underline">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding TapCommand}"
+                                          CommandParameter="https://docs.microsoft.com/xamarin/" />
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Label FontSize="12"
+               HorizontalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Olvidé mi contraseña"
+                  TextColor="Blue"
+                  TextDecorations="Underline">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding TapCommand}"
+                                          CommandParameter="https://docs.microsoft.com/xamarin/" />
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+    

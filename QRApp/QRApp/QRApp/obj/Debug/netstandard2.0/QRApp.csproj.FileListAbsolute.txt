@@ -1,0 +1,15 @@
+C:\Users\liz-z\source\repos\QRApp\QRApp\QRApp\bin\Debug\netstandard2.0\QRApp.deps.json
+C:\Users\liz-z\source\repos\QRApp\QRApp\QRApp\bin\Debug\netstandard2.0\QRApp.dll
+C:\Users\liz-z\source\repos\QRApp\QRApp\QRApp\bin\Debug\netstandard2.0\ref\QRApp.dll
+C:\Users\liz-z\source\repos\QRApp\QRApp\QRApp\bin\Debug\netstandard2.0\QRApp.pdb
+C:\Users\liz-z\source\repos\QRApp\QRApp\QRApp\obj\Debug\netstandard2.0\QRApp.csprojAssemblyReference.cache
+C:\Users\liz-z\source\repos\QRApp\QRApp\QRApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\liz-z\source\repos\QRApp\QRApp\QRApp\obj\Debug\netstandard2.0\QRApp.AssemblyInfoInputs.cache
+C:\Users\liz-z\source\repos\QRApp\QRApp\QRApp\obj\Debug\netstandard2.0\QRApp.AssemblyInfo.cs
+C:\Users\liz-z\source\repos\QRApp\QRApp\QRApp\obj\Debug\netstandard2.0\QRApp.csproj.CoreCompileInputs.cache
+C:\Users\liz-z\source\repos\QRApp\QRApp\QRApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\liz-z\source\repos\QRApp\QRApp\QRApp\obj\Debug\netstandard2.0\QRApp.dll
+C:\Users\liz-z\source\repos\QRApp\QRApp\QRApp\obj\Debug\netstandard2.0\ref\QRApp.dll
+C:\Users\liz-z\source\repos\QRApp\QRApp\QRApp\obj\Debug\netstandard2.0\QRApp.pdb
+C:\Users\liz-z\source\repos\QRApp\QRApp\QRApp\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+C:\Users\liz-z\source\repos\QRApp\QRApp\QRApp\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
